@@ -1,60 +1,113 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"> 
-        <title>Kalsang Bhutia</title> 
-        <link href="assets/css/reset.css" type="text/css" rel="stylesheet"/>
-        <link href="assets/css/style.css" type="text/css" rel="stylesheet"/> 
-    </head>
-    <body>
-            <header>
-                <h1>KALSANG BHUTIA</h1> 
-                <nav>
-                    <ul>
 
-                         <li><a href="contact.html">Contact</a></li>
-                         <li><a href="portfolio.html" class="active">Portfolio</a></li>
-                       
-                         <li><a href="index.html">About</a></li>
-                      
-                    </ul>
-                </nav>
-            </header>
-            <br>
-            <div class="background">
-                <div class="container">
-                    <h2>Portfolio</h2>
-                    <div class="portfolio-grid">
-                        <div class="portfolio-images" id="portfolio-1">
-                            <div>
-                                <span>Hangman</span>
-                            </div>
-                        </div>
-                        <div class="portfolio-images" id="portfolio-2">
-                            <div>
-                                <span>RPG Game</span>
-                            </div>
-                        </div>
-                        <div class="portfolio-images" id="portfolio-3">
-                            <div>
-                                <span>Trivia Game</span>
-                            </div>
-                        </div>
-                        <div class="portfolio-images" id="portfolio-4">
-                            <div>
-                                <span>Rutgers Info Widget</span>
-                            </div>
-                        </div>
-                        <div class="portfolio-images" id="portfolio-5">
-                            <div>
-                                <span>Rock Paper Scissors</span>
-                            </div>
-                        </div>  
-                    </div>     
+<head>
+    <meta charset="UTF-8">
+    <title>Kalsang Bhutia</title>
+    <link href="assets/css/reset.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- <link href="assets/css/style.css" type="text/css" rel="stylesheet"/>  -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">KALSANG BHUTIA</span>
+
+
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="my-4">Portfolio</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/imgs/Portfolio-images.png" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Hangman</a>
+                        </h4>
+                    </div>
                 </div>
-            </div>    
-            <footer class="footer">
-                Copyright &copy;
-            </footer>
-    </body>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/imgs/Portfolio-images.png" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">RPG Game</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/imgs/Portfolio-images.png" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Trivia Game</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/imgs/Portfolio-images.png" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Rutgers Info Widget</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item">
+                <div class="card h-100">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/imgs/Portfolio-images.png" alt="">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Rock Paper Scissors</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Copyright &copy;</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
