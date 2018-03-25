@@ -54,6 +54,7 @@ li :last-child {
 body {
   background-image: url(../imgs/doodles.png);
   background-attachment: scroll;
+
 }
 .container {
   color: #777777;
@@ -69,22 +70,7 @@ body {
   border: 2px solid #ddd;
   overflow: auto;
 }
-#contact-name {
-  width: 100%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-#contact-email {
-  width: 100%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-#contact-message {
-  width: 100%;
-  height: 50px;
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
+
 #contact-submit {
   width: 10%;
   margin-top: 2%;
@@ -101,21 +87,10 @@ body {
   color: #fff;
   padding: 5px 0 5px 0;
 }
-#portfolio-1 {
+#portfolio-1, {
   margin: 5%;
 }
-#portfolio-2 {
-  margin: 5%;
-}
-#portfolio-3 {
-  margin: 5%;
-}
-#portfolio-4 {
-  margin: 5%;
-}
-#portfolio-5 {
-  margin: 5%;
-}
+
 .profile-pic {
   float: left;
   margin: 0 5% 0 0;
@@ -130,18 +105,59 @@ body {
 .profile-info {
   line-height: 2em;
 }
-.footer {
-  border-top: 5px solid #4aaaa5;
-  float: left;
-  background-color: #666666;
-  margin: auto;
-  padding: 25px 25px 25px 25px; 
-  text-align: center;
-  color: #cccccc;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-} */
+ */
+ h1 {
+  background-color: #4aaaa5;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  padding: 25px 25px 25px 25px;
+  color:#fff;
+  width:100%;
+
+}
+.nav {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #fff;
+  background-color: #ffffff;
+}
+body {
+  background-image: url(../imgs/doodles.png);
+  background-attachment: scroll;
+  padding-bottom:80px;
+
+}
+h2,h3 {
+  color: #4aaaa5;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  font-weight: bold;
+  font-size: 24px;
+  border-bottom: 2px solid #ddd;
+}
+li a {
+  display: block;
+  padding: 4px;
+  color: #777;
+  background-color: #ffffff;
+  height: 25px;
+  width: auto;
+  margin: 2px;
+  border-right: 1px;
+  text-decoration: none;
+}
+
+form, .about-me, .portfolio-item{
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 5%;
+    padding: 25px 25px 25px 25px;
+    border: 2px solid #ddd;
+    overflow: auto;
+  }
+
+  p{
+    line-height: 2em;
+  }
 .footer {
   position: fixed;
   bottom:0;
@@ -150,5 +166,15 @@ body {
   line-height: 60px;
   background-color: #666666;
   color: #cccccc;
-  border-top: 5px solid #4aaaa5;
+  border-top: 3px solid #4aaaa5;
+  text-align:center;
+}
+.submit-button {
+  width: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #4aaaa5;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px;
 }
